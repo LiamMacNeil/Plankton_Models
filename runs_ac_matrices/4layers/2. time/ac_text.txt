@@ -1,0 +1,274 @@
+/usr/bin/python3.5 /home/fractal/PycharmProjects/hologram_SVM/check_past_four.py
+I tensorflow/stream_executor/dso_loader.cc:135] successfully opened CUDA library libcublas.so.8.0 locally
+I tensorflow/stream_executor/dso_loader.cc:135] successfully opened CUDA library libcudnn.so.5 locally
+I tensorflow/stream_executor/dso_loader.cc:135] successfully opened CUDA library libcufft.so.8.0 locally
+I tensorflow/stream_executor/dso_loader.cc:135] successfully opened CUDA library libcuda.so.1 locally
+I tensorflow/stream_executor/dso_loader.cc:135] successfully opened CUDA library libcurand.so.8.0 locally
+/usr/local/lib/python3.5/dist-packages/sklearn/cross_validation.py:44: DeprecationWarning: This module was deprecated in version 0.18 in favor of the model_selection module into which all the refactored classes and functions are moved. Also note that the interface of the new CV iterators are different from that of this module. This module will be removed in 0.20.
+  "This module will be removed in 0.20.", DeprecationWarning)
+W tensorflow/core/platform/cpu_feature_guard.cc:45] The TensorFlow library wasn't compiled to use SSE3 instructions, but these are available on your machine and could speed up CPU computations.
+W tensorflow/core/platform/cpu_feature_guard.cc:45] The TensorFlow library wasn't compiled to use SSE4.1 instructions, but these are available on your machine and could speed up CPU computations.
+W tensorflow/core/platform/cpu_feature_guard.cc:45] The TensorFlow library wasn't compiled to use SSE4.2 instructions, but these are available on your machine and could speed up CPU computations.
+W tensorflow/core/platform/cpu_feature_guard.cc:45] The TensorFlow library wasn't compiled to use AVX instructions, but these are available on your machine and could speed up CPU computations.
+W tensorflow/core/platform/cpu_feature_guard.cc:45] The TensorFlow library wasn't compiled to use AVX2 instructions, but these are available on your machine and could speed up CPU computations.
+W tensorflow/core/platform/cpu_feature_guard.cc:45] The TensorFlow library wasn't compiled to use FMA instructions, but these are available on your machine and could speed up CPU computations.
+I tensorflow/stream_executor/cuda/cuda_gpu_executor.cc:910] successful NUMA node read from SysFS had negative value (-1), but there must be at least one NUMA node, so returning NUMA node zero
+I tensorflow/core/common_runtime/gpu/gpu_device.cc:885] Found device 0 with properties: 
+name: GeForce GTX 1070
+major: 6 minor: 1 memoryClockRate (GHz) 1.683
+pciBusID 0000:01:00.0
+Total memory: 7.92GiB
+Free memory: 7.42GiB
+I tensorflow/core/common_runtime/gpu/gpu_device.cc:906] DMA: 0 
+I tensorflow/core/common_runtime/gpu/gpu_device.cc:916] 0:   Y 
+I tensorflow/core/common_runtime/gpu/gpu_device.cc:975] Creating TensorFlow device (/gpu:0) -> (device: 0, name: GeForce GTX 1070, pci bus id: 0000:01:00.0)
+WARNING:tensorflow:From /home/fractal/PycharmProjects/hologram_SVM/check_past_four.py:191: initialize_all_variables (from tensorflow.python.ops.variables) is deprecated and will be removed after 2017-03-02.
+Instructions for updating:
+Use `tf.global_variables_initializer` instead.
+train # 0
+train # 100
+train # 200
+train # 300
+WARNING:tensorflow:From /home/fractal/PycharmProjects/hologram_SVM/check_past_four.py:396: initialize_all_variables (from tensorflow.python.ops.variables) is deprecated and will be removed after 2017-03-02.
+Instructions for updating:
+Use `tf.global_variables_initializer` instead.
+Tensor("Mean_3:0", shape=(), dtype=float32)
+step 0, training accuracy 0.0526316
+Validation accuracy: 0.0373684
+Variance:0.000251801
+loss:4.45964
+
+/usr/lib/python3/dist-packages/matplotlib/backend_bases.py:2437: MatplotlibDeprecationWarning: Using default event loop until function specific to this GUI is implemented
+  warnings.warn(str, mplDeprecation)
+step 100, training accuracy 0.776316
+Validation accuracy: 0.707895
+Variance:0.0023615
+loss:0.779092
+
+step 200, training accuracy 0.960526
+Validation accuracy: 0.766053
+Variance:0.00205187
+loss:0.460377
+
+step 300, training accuracy 0.93421
+Validation accuracy: 0.801842
+Variance:0.00223968
+loss:0.40066
+
+step 400, training accuracy 0.960526
+Validation accuracy: 0.816842
+Variance:0.00195873
+loss:0.17382
+
+step 500, training accuracy 0.947368
+Validation accuracy: 0.801842
+Variance:0.0010901
+loss:0.211459
+
+step 600, training accuracy 0.973684
+Validation accuracy: 0.807105
+Variance:0.00149314
+loss:0.105696
+
+step 700, training accuracy 0.960526
+Validation accuracy: 0.816316
+Variance:0.00139861
+loss:0.137531
+
+step 800, training accuracy 0.986842
+Validation accuracy: 0.824211
+Variance:0.00163269
+loss:0.110131
+
+step 900, training accuracy 0.93421
+Validation accuracy: 0.833158
+Variance:0.00158892
+loss:0.233944
+
+step 1000, training accuracy 0.973684
+Validation accuracy: 0.81
+Variance:0.00176011
+loss:0.0865502
+
+step 1100, training accuracy 0.986842
+Validation accuracy: 0.839474
+Variance:0.00135734
+loss:0.14828
+
+step 1200, training accuracy 0.986842
+Validation accuracy: 0.807895
+Variance:0.00142659
+loss:0.0847164
+
+step 1300, training accuracy 1
+Validation accuracy: 0.842632
+Variance:0.00121163
+loss:0.051127
+
+step 1400, training accuracy 0.973684
+Validation accuracy: 0.807632
+Variance:0.00112112
+loss:0.0496334
+
+step 1500, training accuracy 1
+Validation accuracy: 0.861316
+Variance:0.00131724
+loss:0.0187829
+
+step 1600, training accuracy 1
+Validation accuracy: 0.815526
+Variance:0.00118068
+loss:0.0310261
+
+step 1700, training accuracy 1
+Validation accuracy: 0.838684
+Variance:0.00139758
+loss:0.0231737
+
+step 1800, training accuracy 1
+Validation accuracy: 0.834211
+Variance:0.00132271
+loss:0.0516642
+
+step 1900, training accuracy 0.986842
+Validation accuracy: 0.832105
+Variance:0.00102188
+loss:0.057596
+
+step 2000, training accuracy 0.986842
+Validation accuracy: 0.814211
+Variance:0.00150028
+loss:0.0809632
+
+step 2100, training accuracy 1
+Validation accuracy: 0.831316
+Variance:0.00156987
+loss:0.0675323
+
+step 2200, training accuracy 0.973684
+Validation accuracy: 0.858947
+Variance:0.000990581
+loss:0.0163291
+
+step 2300, training accuracy 1
+Validation accuracy: 0.819211
+Variance:0.00146683
+loss:0.0230799
+
+step 2400, training accuracy 1
+Validation accuracy: 0.807368
+Variance:0.00189584
+loss:0.0322752
+
+step 2500, training accuracy 1
+Validation accuracy: 0.827368
+Variance:0.00126482
+loss:0.0171502
+
+step 2600, training accuracy 0.986842
+Validation accuracy: 0.809737
+Variance:0.00175353
+loss:0.0567364
+
+step 2700, training accuracy 0.986842
+Validation accuracy: 0.837105
+Variance:0.00152971
+loss:0.0348752
+
+step 2800, training accuracy 0.973684
+Validation accuracy: 0.827632
+Variance:0.0013937
+loss:0.0619864
+
+step 2900, training accuracy 0.986842
+Validation accuracy: 0.838947
+Variance:0.000994183
+loss:0.0510656
+
+step 3000, training accuracy 1
+Validation accuracy: 0.829737
+Variance:0.0012286
+loss:0.0155877
+
+0
+[ 0.54385965  0.0877193   0.1754386   0.          0.1754386   0.
+  0.01754386  0.          0.          0.          0.          0.          0.
+  0.          0.          0.          0.          0.          0.        ]
+1
+[ 0.          0.97283951  0.          0.01234568  0.          0.          0.
+  0.00740741  0.          0.          0.          0.          0.00246914
+  0.          0.          0.00246914  0.          0.          0.00246914]
+2
+[ 0.          0.          0.95555556  0.          0.04444444  0.          0.
+  0.          0.          0.          0.          0.          0.          0.
+  0.          0.          0.          0.          0.        ]
+3
+[ 0.          0.06410256  0.06410256  0.76923077  0.          0.          0.
+  0.          0.          0.          0.          0.          0.          0.1025641
+  0.          0.          0.          0.          0.        ]
+4
+[ 0.          0.          0.          0.01219512  0.96747967  0.          0.0203252
+  0.          0.          0.          0.          0.          0.          0.
+  0.          0.          0.          0.          0.        ]
+5
+[ 0.          0.          0.          0.          0.          0.76271186
+  0.02824859  0.04519774  0.          0.          0.          0.
+  0.13559322  0.          0.          0.          0.02824859  0.          0.        ]
+6
+[  0.00000000e+00   0.00000000e+00   1.84162063e-03   0.00000000e+00
+   8.28729282e-03   0.00000000e+00   9.85267035e-01   9.20810313e-04
+   0.00000000e+00   1.84162063e-03   0.00000000e+00   0.00000000e+00
+   0.00000000e+00   0.00000000e+00   0.00000000e+00   0.00000000e+00
+   9.20810313e-04   0.00000000e+00   9.20810313e-04]
+7
+[ 0.          0.01587302  0.          0.          0.          0.          0.
+  0.94920635  0.          0.          0.          0.0031746   0.02539683
+  0.          0.          0.          0.00634921  0.          0.        ]
+8
+[ 0.          0.01025641  0.          0.          0.          0.          0.
+  0.          0.93846154  0.          0.          0.          0.05128205
+  0.          0.          0.          0.          0.          0.        ]
+9
+[ 0.          0.          0.          0.          0.          0.
+  0.14851485  0.          0.          0.85148515  0.          0.          0.
+  0.          0.          0.          0.          0.          0.        ]
+10
+[ 0.          0.02439024  0.          0.          0.          0.          0.
+  0.          0.          0.          0.96747967  0.00813008  0.          0.
+  0.          0.          0.          0.          0.        ]
+11
+[ 0.          0.03968254  0.          0.          0.          0.          0.
+  0.          0.          0.          0.02380952  0.92857143  0.00793651
+  0.          0.          0.          0.          0.          0.        ]
+12
+[ 0.          0.          0.          0.          0.          0.00277778
+  0.          0.          0.          0.          0.          0.01388889
+  0.775       0.          0.00277778  0.00277778  0.20277778  0.          0.        ]
+13
+[ 0.          0.16666667  0.          0.          0.          0.          0.
+  0.          0.          0.          0.          0.11111111  0.
+  0.66666667  0.05555556  0.          0.          0.          0.        ]
+14
+[ 0.          0.          0.          0.          0.          0.          0.
+  0.          0.          0.          0.          0.          0.08333333
+  0.          0.91666667  0.          0.          0.          0.        ]
+15
+[ 0.          0.          0.          0.          0.          0.          0.
+  0.          0.08333333  0.          0.          0.          0.16666667
+  0.          0.          0.63888889  0.11111111  0.          0.        ]
+16
+[ 0.          0.          0.          0.          0.          0.
+  0.00680272  0.          0.00226757  0.          0.          0.
+  0.07482993  0.          0.          0.00680272  0.90929705  0.          0.        ]
+17
+[ 0.          0.125       0.04166667  0.04166667  0.          0.04166667
+  0.          0.          0.          0.          0.          0.04166667
+  0.04166667  0.          0.          0.08333333  0.          0.58333333
+  0.        ]
+18
+[ 0.          0.          0.          0.          0.          0.
+  0.01639344  0.01639344  0.          0.          0.          0.          0.
+  0.          0.          0.          0.          0.          0.96721311]
+Model saved in file: /home/fractal/workspace/02_hoi/4Deep/classes19/save_dir
+
+Process finished with exit code 0
