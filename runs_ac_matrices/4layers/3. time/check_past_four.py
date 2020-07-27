@@ -99,6 +99,7 @@ def get_dataset(data_type):
     return images.reshape(BATCH_SIZE, INPUT_SIZE), y_batch_v
 
 
+
 ######################### creating confusion matrix ########################
 def confusion_matrix(sess, data_type=2):
     images = []
