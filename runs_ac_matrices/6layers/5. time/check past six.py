@@ -114,7 +114,7 @@ def confusion_matrix(sess, data_type=2):
 
     for i in range(CLASS_SIZE):
 
-        files = glob.glob(data_dir + str(i) + data_type_post + '/' + '*.png')
+        files =glob.glob(data_dir + '\\' + str(i) + data_type_post + '\\' + '*.png')
 
         num_test_class = np.shape(files)[0]
 
@@ -137,7 +137,8 @@ def confusion_matrix(sess, data_type=2):
 
         Y_target = np.asarray(target)
 
-
+        y_pred = []
+        y_true = []
         for j in range(num_test_class):
             pngfile = imread(files[j])
             images.append(pngfile)
@@ -151,7 +152,9 @@ def confusion_matrix(sess, data_type=2):
 
                 for k in range(np.shape(pred_out_)[0]):
                     index_pred = np.argmax(pred_out_[k])
+                    y_pred.append(index_pred)
                     target = targets[k]
+                    y_true.append(target)
                     cn_matrix[target][index_pred] = cn_matrix[target][index_pred] + 1
 
                 targets = []
@@ -162,8 +165,6 @@ def confusion_matrix(sess, data_type=2):
         cn_matrix[i, :] = cn_matrix[i, :] / append_class_num[i]
         print(i)
         print(cn_matrix[i, :])
-
-
     fig = plt.figure()
     plt.matshow(cn_matrix)
     plt.title('Problem: Hologram Confusion Matrix')
